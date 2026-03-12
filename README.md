@@ -170,7 +170,7 @@ Key parameters include:
   LOCAL_EPOCHS            Local training epochs per   90
                           client                      
 
-  TARGET_LAMBDA           Sparsity regularization     1e-4
+  TARGET_LAMBDA           gravity regularization     1e-4
                           coefficient                 
 
   TARGET_CLASSES          Subset of classes used in   \["airplane",
