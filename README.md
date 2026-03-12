@@ -164,7 +164,7 @@ Key parameters include:
   ----------------------- --------------------------- -------------------
   NUM_CLIENTS             Number of federated clients 10
 
-  ROUNDS                  Number of communication     1000
+  ROUNDS                  Number of communication     100
                           rounds                      
 
   LOCAL_EPOCHS            Local training epochs per   90
