@@ -5,7 +5,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Federated Learning Hyperparameters
 NUM_CLIENTS = 10
-ROUNDS = 1000
+ROUNDS = 100
 LOCAL_EPOCHS = 90
 BATCH_SIZE = 128
 TARGET_LAMBDA = 1e-4 
