@@ -1,9 +1,9 @@
-# Falcon-RL: Federated Concept Extraction and Rule Learning
+# FALCON-RL: Federated Aligned Language-guided CONcept-oriented Rule Learning
 
 This repository provides the implementation of **Falcon-RL**, a
 federated learning framework for extracting **interpretable
 concept-based rules** from distributed image datasets. The method
-leverages **EVA-CLIP** to compute concept embeddings and trains a
+leverages **CLIP** to compute concept embeddings and trains a
 **federated concept bottleneck model** to derive human-readable
 classification rules.
 
