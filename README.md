@@ -43,7 +43,7 @@ You can download the datasets from the following links:
     ├── extract_features.py    # Step 1: CLIP feature extraction
     ├── fl_core.py             # Federated learning algorithms and model definitions
     ├── rules.py               # Rule extraction and evaluation utilities
-    ├── train.py               # Step 2: Federated training and rule generation
+    ├── train-test.py          # Step 2: Federated training and rule generation
     ├── utils.py               # Helper functions and utilities
     ├── requirements.txt       # Python dependencies
     └── results/               # Output directory for features, models, and rules
@@ -57,9 +57,9 @@ python extract_features.py
 ```
 The extracted features will be stored in `./results/dataset/features.pt`
 
-Next, initiate the federated training process by running:
+Next, initiate the federated training process and rule generation by running:
 ``` python
-python train.py
+python train-test.py
 ```
 Upon completion of the maximum number of communication rounds, the model checkpoint with the highest validation accuracy will be saved to `./results/dataset/weights.pt`
 
