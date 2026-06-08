@@ -2,7 +2,7 @@
 
 Code for the paper "FALCON-RL: Federated Aligned Language-guided CONcept-oriented Rule Learning"
 
-FALCON-RL is a language model-guided federated CBM method designed to extract interpretable textual concept-based rules for image classification. 
+FALCON-RL is a language model-guided federated CBMs method designed to extract interpretable textual concept-based rules for image classification. 
 
 ## Environments
 
