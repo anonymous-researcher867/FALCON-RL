@@ -55,13 +55,13 @@ Execute the following command to extract the features:
 ``` python
 python extract_features.py
 ```
-The extracted features will be stored in `./results/clip_features/`
+The extracted features will be stored in `./results/dataset/features.pt`
 
 Next, initiate the federated training process by running:
 ``` python
 python train.py
 ```
-Upon completion of the maximum number of communication rounds, the model checkpoint with the highest validation accuracy will be saved to `./results/model_weights/`
+Upon completion of the maximum number of communication rounds, the model checkpoint with the highest validation accuracy will be saved to `./results/dataset/weights.pt`
 
 ## Acknowledgments
 This repository is based on the following repositories:
